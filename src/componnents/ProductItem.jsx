@@ -7,7 +7,7 @@ import useMutationCart from '../hoooks/useMutationCart'
 
 export default function ProductItem({prod}) {
 
-
+  
     let { imageCover,titel,price,category,id,ratingsAverage,priceAfterDiscount} = prod
     
   let {mutate, data,isSuccess,isError,error}= useMutationCart()
