@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './componnents/layout'
 import Home from './componnents/Home'
 import Cart from './componnents/Cart'
@@ -22,7 +22,7 @@ export default function App() {
 
 
 
-  let routes = createBrowserRouter([
+  let routes = createHashRouter([
   {path:'/',element:<Layout></Layout>,children:[
     {index:true,element:<Home></Home>},
     {path:'/cart',element:<Protectedroute><Cart></Cart></Protectedroute>},
