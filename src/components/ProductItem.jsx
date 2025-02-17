@@ -3,7 +3,7 @@ import axios from 'axios'
 import React from 'react'
 import toast from 'react-hot-toast'
 import { Link, useMatch } from 'react-router-dom'
-import useMutationCart from '../hoooks/useMutationCart'
+import useMutationCart from '../hooks/useMutationCart'
 
 export default function ProductItem({prod}) {
 

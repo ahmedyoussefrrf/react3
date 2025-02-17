@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
 
 import React from 'react'
-import Loding from '../componnents/Loding'
+import Loding from './Loding'
 import ProductItem from './ProductItem'
-import useProducts, { getProduct } from './../hoooks/useProducts';
+import useProducts, { getProduct } from '../hooks/useProducts';
 
 
 

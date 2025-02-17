@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
-import useQueryCart from '../hoooks/useQueryCart'
-import useDeletupdatecart, { deleteItem, updateItem } from '../hoooks/usedeletupdatecart'
+import useQueryCart from '../hooks/useQueryCart'
+import useDeletupdatecart, { deleteItem, updateItem } from '../hooks/usedeletupdatecart'
 import Loding from './Loding'
 import {CartNums} from '../context/CartNumContext'
 import Payement from './Payement'

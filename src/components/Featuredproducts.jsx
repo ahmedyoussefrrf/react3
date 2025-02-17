@@ -3,7 +3,7 @@ import products from './Products'
 import ProductItem from './ProductItem'
 import Loding from './Loding'
 import { useQuery } from '@tanstack/react-query'
-import useProducts, { getProduct } from '../hoooks/useProducts'
+import useProducts, { getProduct } from '../hooks/useProducts'
 
 export default function Featuredproducts() {
     
